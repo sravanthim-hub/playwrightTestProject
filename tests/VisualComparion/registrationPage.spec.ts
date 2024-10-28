@@ -8,5 +8,6 @@ test.describe('Visual Regression for Registration page', () => {
             await registerPage.IsReady(baseURL)
             await registerPage.enterFirstName('abc')
             await expect(page).toHaveScreenshot('registration-landing-page.png')
+            //comment
     })
 })
