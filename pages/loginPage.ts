@@ -28,5 +28,6 @@ export default class loginPage {
         await this.enterEmail(email)
        await this.enterPassword(password)
        await this.clickLoginBtn()
+       return
     }
 }

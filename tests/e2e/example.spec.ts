@@ -10,7 +10,7 @@ test.describe('login',() => {
     
   })
 
-test.only('has title', async ({ page }) => {
+test('has title', async ({ page }) => {
   // await expect(page.getByRole('heading', { name: 'Swag labs' })).toBeVisible();
   // await page.goto('https://www.saucedemo.com/')
   // await expect(page).toHaveURL('https://www.saucedemo.com/');

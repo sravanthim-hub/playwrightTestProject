@@ -1,0 +1,97 @@
+<testsuites id="" name="" tests="15" failures="0" skipped="2" errors="0" time="16.289380999982356">
+<testsuite name="Api/api.spec.ts" timestamp="2025-04-17T11:48:44.656Z" hostname="chromium" tests="6" failures="0" skipped="0" time="2.949" errors="0">
+<testcase name="API testing › Simple API testing - assert response status" classname="Api/api.spec.ts" time="0.498">
+</testcase>
+<testcase name="API testing › simple API test - invalid end point" classname="Api/api.spec.ts" time="0.464">
+</testcase>
+<testcase name="API testing › create new user - post request" classname="Api/api.spec.ts" time="0.523">
+</testcase>
+<testcase name="API testing › POST Request - login fail" classname="Api/api.spec.ts" time="0.421">
+</testcase>
+<testcase name="API testing › update user using put request" classname="Api/api.spec.ts" time="0.571">
+</testcase>
+<testcase name="API testing › delete request - delete user" classname="Api/api.spec.ts" time="0.472">
+</testcase>
+</testsuite>
+<testsuite name="e2e/accessibility.spec.ts" timestamp="2025-04-17T11:48:44.656Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="Verify Accessibility Violations › Accessibility test" classname="e2e/accessibility.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="e2e/addToCart.spec.ts" timestamp="2025-04-17T11:48:44.656Z" hostname="chromium" tests="1" failures="0" skipped="1" time="0" errors="0">
+<testcase name="User is able to add product to cart successfully" classname="e2e/addToCart.spec.ts" time="0">
+<skipped>
+</skipped>
+</testcase>
+</testsuite>
+<testsuite name="e2e/example.spec.ts" timestamp="2025-04-17T11:48:44.656Z" hostname="chromium" tests="2" failures="0" skipped="0" time="14.275" errors="0">
+<testcase name="login › has title" classname="e2e/example.spec.ts" time="8.715">
+</testcase>
+<testcase name="get started link" classname="e2e/example.spec.ts" time="5.56">
+</testcase>
+</testsuite>
+<testsuite name="e2e/login-test.spec.ts" timestamp="2025-04-17T11:48:44.656Z" hostname="chromium" tests="1" failures="0" skipped="0" time="10.64" errors="0">
+<testcase name="user is able to login successfully" classname="e2e/login-test.spec.ts" time="10.64">
+<system-out>
+<![CDATA[TAP version 13
+# Subtest: Login
+ok 1 - Login
+  ---
+  duration_ms: 1.105208
+  type: 'suite'
+  ...
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="e2e/register-test.spec.ts" timestamp="2025-04-17T11:48:44.656Z" hostname="chromium" tests="3" failures="0" skipped="0" time="32.647" errors="0">
+<testcase name="User is able to register successfully" classname="e2e/register-test.spec.ts" time="10.392">
+<system-out>
+<![CDATA[TAP version 13
+# Subtest: Test Registration Process
+ok 1 - Test Registration Process
+  ---
+  duration_ms: 1.152066
+  type: 'suite'
+  ...
+inside isready function
+]]>
+</system-out>
+</testcase>
+<testcase name="Error message received when existing user registered again" classname="e2e/register-test.spec.ts" time="10.759">
+<system-out>
+<![CDATA[TAP version 13
+# Subtest: Test Registration Process
+ok 1 - Test Registration Process
+  ---
+  duration_ms: 1.179754
+  type: 'suite'
+  ...
+inside isready function
+]]>
+</system-out>
+</testcase>
+<testcase name="Error message received when terms and conditions is not checked" classname="e2e/register-test.spec.ts" time="11.496">
+<system-out>
+<![CDATA[TAP version 13
+# Subtest: Test Registration Process
+ok 1 - Test Registration Process
+  ---
+  duration_ms: 2.006831
+  type: 'suite'
+  ...
+inside isready function
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="VisualComparion/registrationPage.spec.ts" timestamp="2025-04-17T11:48:44.656Z" hostname="chromium" tests="1" failures="0" skipped="0" time="6.84" errors="0">
+<testcase name="Visual Regression for Registration page › Registration page landing page" classname="VisualComparion/registrationPage.spec.ts" time="6.84">
+<system-out>
+<![CDATA[inside isready function
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
