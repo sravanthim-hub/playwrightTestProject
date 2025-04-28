@@ -3,6 +3,8 @@
       "baseUrl": "https://ecommerce-playground.lambdatest.io/index.php?",
       "paths": {
         "@myhelper/*": ["packages/myhelper/*"] // This mapping is relative to "baseUrl".
-      }
+      },
+      "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true,
     }
   }
