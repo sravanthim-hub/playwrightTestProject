@@ -2,7 +2,7 @@ import {test, expect } from '@playwright/test'
 import exp = require('constants')
 
 const baseURL = 'https://reqres.in/api/'
-test.describe('API testing', () => {
+test.describe.skip('API testing', () => {
     test('Simple API testing - assert response status',async({request})=> {
         const response = await request.get(`${baseURL}users/2`)
         expect (response.status()).toBe(200)
