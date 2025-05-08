@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "PLAYWRIGHT_JUNIT_OUTPUT_NAME=xray-report.xml npx playwright test --grep @smoke --project=chromium"
+    "test": "PLAYWRIGHT_JUNIT_OUTPUT_NAME=playwright-report/xray-report.xml npx playwright test --grep @smoke --project=chromium"
   },
   "keywords": [],
   "author": "",
