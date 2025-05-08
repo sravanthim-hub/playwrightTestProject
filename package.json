@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "PLAYWRIGHT_JUNIT_OUTPUT_NAME=junit.xml npx playwright test --grep @smoke --project=chromium",
-    // "smoketest": "PLAYWRIGHT_JUNIT_OUTPUT_NAME=junit.xml npx playwright test --grep @smoke --project=chromium"
+    "test": "PLAYWRIGHT_JUNIT_OUTPUT_NAME=junit.xml npx playwright test --grep @smoke --project=chromium"
   },
   "keywords": [],
   "author": "",
