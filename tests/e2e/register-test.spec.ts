@@ -1,27 +1,28 @@
 import { describe } from "node:test";
 import { test } from "../../pages/base";
-import { expect } from "@playwright/test"
+import { expect } from "@playwright/test";
+import registrationData from "../../testdata/registration-data.json";
+import RegistrationData from "../../DataModel/testdata.ts"
 
-const seqNumber = 1
-let newEmail = `abc.test${seqNumber+(seqNumber+1)}@gmail.com`;
-const existingEmail = 'abc.test@gmail.com'
-const password = 'password@123';
+const typedregistrationData = registrationData as RegistrationData
 
 describe('Test Registration Process',() => {
-    test('User is able to register successfully',async ({
+    registrationData.forEach(data => {
+    test(`User is able to register successfully with ${data.}`,async ({
     page, baseURL, registerPage}) => {
 
     await registerPage.IsReady(baseURL)
 
     await registerPage.registerUser(
-    'abc',
-     'test',
-     newEmail,
-        '1234567890',
-                password
+        registrationData.firstName,
+        registrationData.lastName,
+        registrationData.newEmail,
+        registrationData.phone,
+                registrationData.password
     )
     // await expect(page.locator('//h1[@class="page-title my-3"]')).toHaveText(' Your Account Has Been Created!')
     })
+});
 
     test('Error message received when existing user registered again',async ({
     page, baseURL, registerPage}) => {
