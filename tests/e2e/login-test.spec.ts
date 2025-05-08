@@ -5,7 +5,8 @@ const email = 'abc.test@gmai.com'
 const password = 'password@123'
 
 describe('Login', () => {
-    test('user is able to login successfully', async(
+    test('user is able to login successfully', 
+        {tag: '@smoke'},async(
         {page,loginPage, baseURL, accessibility}) => {
             await loginPage.IsReady(baseURL)
             // await accessibility.a11y(page)
